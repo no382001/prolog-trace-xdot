@@ -1,112 +1,324 @@
-   Call: (9) there_is_way(telaviv, heifa) ? creep
-   Call: (10) there_is_way(telaviv, heifa, nil) ? creep
-   Call: (11) road_from(telaviv, heifa) ? creep
-   Call: (12) road(telaviv, heifa) ? creep
-   Fail: (12) road(telaviv, heifa) ? creep
-   Fail: (11) road_from(telaviv, heifa) ? creep
-   Redo: (10) there_is_way(telaviv, heifa, nil) ? creep
-   Call: (11) road_from(telaviv, _4236) ? creep
-   Call: (12) road(telaviv, _4236) ? creep
-   Exit: (12) road(telaviv, natanya) ? creep
-   Exit: (11) road_from(telaviv, natanya) ? creep
-   Call: (11) natanya\=nil ? creep
-   Exit: (11) natanya\=nil ? creep
-   Call: (11) there_is_way(natanya, heifa, telaviv) ? creep
-   Call: (12) road_from(natanya, heifa) ? creep
-   Call: (13) road(natanya, heifa) ? creep
-   Fail: (13) road(natanya, heifa) ? creep
-   Fail: (12) road_from(natanya, heifa) ? creep
-   Redo: (11) there_is_way(natanya, heifa, telaviv) ? creep
-   Call: (12) road_from(natanya, _4236) ? creep
-   Call: (13) road(natanya, _4236) ? creep
-   Fail: (13) road(natanya, _4236) ? creep
-   Fail: (12) road_from(natanya, _4236) ? creep
-   Redo: (11) there_is_way(natanya, heifa, telaviv) ? creep
-   Call: (12) road_to(natanya, heifa) ? creep
-   Call: (13) road(heifa, natanya) ? creep
-   Fail: (13) road(heifa, natanya) ? creep
-   Fail: (12) road_to(natanya, heifa) ? creep
-   Redo: (11) there_is_way(natanya, heifa, telaviv) ? creep
-   Call: (12) road_to(natanya, _4236) ? creep
-   Call: (13) road(_4234, natanya) ? creep
-   Exit: (13) road(telaviv, natanya) ? creep
-   Exit: (12) road_to(natanya, telaviv) ? creep
-   Call: (12) telaviv\=telaviv ? creep
-   Fail: (12) telaviv\=telaviv ? creep
-   Redo: (13) road(_4234, natanya) ? creep
-   Exit: (13) road(hadera, natanya) ? creep
-   Exit: (12) road_to(natanya, hadera) ? creep
-   Call: (12) hadera\=telaviv ? creep
-   Exit: (12) hadera\=telaviv ? creep
-   Call: (12) there_is_way(hadera, heifa, natanya) ? creep
-   Call: (13) road_from(hadera, heifa) ? creep
-   Call: (14) road(hadera, heifa) ? creep
-   Exit: (14) road(hadera, heifa) ? creep
-   Exit: (13) road_from(hadera, heifa) ? creep
-   Call: (13) heifa\=natanya ? creep
-   Exit: (13) heifa\=natanya ? creep
-   Exit: (12) there_is_way(hadera, heifa, natanya) ? creep
-   Exit: (11) there_is_way(natanya, heifa, telaviv) ? creep
-   Exit: (10) there_is_way(telaviv, heifa, nil) ? creep
-   Exit: (9) there_is_way(telaviv, heifa) ? creep
-true ; 
-   Redo: (12) there_is_way(hadera, heifa, natanya) ? creep
-   Call: (13) road_from(hadera, _4236) ? creep
-   Call: (14) road(hadera, _4236) ? creep
-   Exit: (14) road(hadera, natanya) ? creep
-   Exit: (13) road_from(hadera, natanya) ? creep
-   Call: (13) natanya\=natanya ? creep
-   Fail: (13) natanya\=natanya ? creep
-   Redo: (14) road(hadera, _4236) ? creep
-   Exit: (14) road(hadera, heifa) ? creep
-   Exit: (13) road_from(hadera, heifa) ? creep
-   Call: (13) heifa\=natanya ? creep
-   Exit: (13) heifa\=natanya ? creep
-   Call: (13) there_is_way(heifa, heifa, hadera) ? creep
-   Call: (14) road_from(heifa, heifa) ? creep
-   Call: (15) road(heifa, heifa) ? creep
-   Fail: (15) road(heifa, heifa) ? creep
-   Fail: (14) road_from(heifa, heifa) ? creep
-   Redo: (13) there_is_way(heifa, heifa, hadera) ? creep
-   Call: (14) road_from(heifa, _4236) ? creep
-   Call: (15) road(heifa, _4236) ? creep
-   Fail: (15) road(heifa, _4236) ? creep
-   Fail: (14) road_from(heifa, _4236) ? creep
-   Redo: (13) there_is_way(heifa, heifa, hadera) ? creep
-   Call: (14) road_to(heifa, heifa) ? creep
-   Call: (15) road(heifa, heifa) ? creep
-   Fail: (15) road(heifa, heifa) ? creep
-   Fail: (14) road_to(heifa, heifa) ? creep
-   Redo: (13) there_is_way(heifa, heifa, hadera) ? creep
-   Call: (14) road_to(heifa, _4236) ? creep
-   Call: (15) road(_4234, heifa) ? creep
-   Exit: (15) road(hadera, heifa) ? creep
-   Exit: (14) road_to(heifa, hadera) ? creep
-   Call: (14) hadera\=hadera ? creep
-   Fail: (14) hadera\=hadera ? creep
-   Fail: (13) there_is_way(heifa, heifa, hadera) ? creep
-   Redo: (12) there_is_way(hadera, heifa, natanya) ? creep
-   Call: (13) road_to(hadera, heifa) ? creep
-   Call: (14) road(heifa, hadera) ? creep
-   Fail: (14) road(heifa, hadera) ? creep
-   Fail: (13) road_to(hadera, heifa) ? creep
-   Redo: (12) there_is_way(hadera, heifa, natanya) ? creep
-   Call: (13) road_to(hadera, _4236) ? creep
-   Call: (14) road(_4234, hadera) ? creep
-   Fail: (14) road(_4234, hadera) ? creep
-   Fail: (13) road_to(hadera, _4236) ? creep
-   Fail: (12) there_is_way(hadera, heifa, natanya) ? creep
-   Fail: (11) there_is_way(natanya, heifa, telaviv) ? creep
-   Redo: (10) there_is_way(telaviv, heifa, nil) ? creep
-   Call: (11) road_to(telaviv, heifa) ? creep
-   Call: (12) road(heifa, telaviv) ? creep
-   Fail: (12) road(heifa, telaviv) ? creep
-   Fail: (11) road_to(telaviv, heifa) ? creep
-   Redo: (10) there_is_way(telaviv, heifa, nil) ? creep 
-   Call: (11) road_to(telaviv, _4236) ? creep
-   Call: (12) road(_4234, telaviv) ? creep
-   Fail: (12) road(_4234, telaviv) ? creep
-   Fail: (11) road_to(telaviv, _4236) ? creep
-   Fail: (10) there_is_way(telaviv, heifa, nil) ? creep
-   Fail: (9) there_is_way(telaviv, heifa) ? creep
-false.
+   Call: (11) main(_3248) ? creep
+   Call: (12) read_util:read_file_to_string("file.txt", _3780, []) ? creep
+   Call: (13) error:must_be(list, []) ? creep
+   Exit: (13) error:must_be(list, []) ? creep
+   Call: (13) absolute_file_name("file.txt", [access(read)], _3924) ? creep
+   Exit: (13) absolute_file_name("file.txt", [access(read)], ' file.txt') ? creep
+^  Call: (13) setup_call_cleanup(open(' file.txt', read, _4054, []), read_string(_4054, _4062, _4064), close(_4054)) ? creep
+   Call: (17) open(' file.txt', read, _4054, []) ? creep
+   Exit: (17) open(' file.txt', read, <stream>(0x558eafae8700), []) ? creep
+   Call: (16) close(<stream>(0x558eafae8700)) ? creep
+   Exit: (16) close(<stream>(0x558eafae8700)) ? creep
+^  Exit: (13) setup_call_cleanup(read_util:open(' file.txt', read, <stream>(0x558eafae8700), []), read_util:read_string(<stream>(0x558eafae8700), 12, " (muh 2 3 4)"), read_util:close(<stream>(0x558eafae8700))) ? creep
+   Exit: (12) read_util:read_file_to_string("file.txt", " (muh 2 3 4)", []) ? creep
+   Call: (12) backward_compatibility:string_to_list(" (muh 2 3 4)", _4460) ? creep
+   Call: (13) string_codes(" (muh 2 3 4)", _4504) ? creep
+   Exit: (13) string_codes(" (muh 2 3 4)", [32, 40, 109, 117, 104, 32, 50, 32|...]) ? creep
+   Exit: (12) backward_compatibility:string_to_list(" (muh 2 3 4)", [32, 40, 109, 117, 104, 32, 50|...]) ? creep
+^  Call: (12) phrase(list(_3248), [32, 40, 109, 117, 104, 32, 50, 32|...]) ? creep
+   Call: (15) list(_3248, [32, 40, 109, 117, 104, 32, 50, 32|...], []) ? creep
+   Call: (16) _4810=[32, 40, 109, 117, 104, 32, 50, 32|...] ? creep
+   Exit: (16) [32, 40, 109, 117, 104, 32, 50, 32|...]=[32, 40, 109, 117, 104, 32, 50, 32|...] ? creep
+   Call: (16) whtsps([32, 40, 109, 117, 104, 32, 50, 32|...], _4900) ? creep
+   Call: (17) _4942=[40, 109, 117, 104, 32, 50, 32, 51|...] ? creep
+   Exit: (17) [40, 109, 117, 104, 32, 50, 32, 51|...]=[40, 109, 117, 104, 32, 50, 32, 51|...] ? creep
+   Call: (17) whtsps([40, 109, 117, 104, 32, 50, 32, 51|...], _5032) ? creep
+   Exit: (17) whtsps([40, 109, 117, 104, 32, 50, 32, 51|...], [40, 109, 117, 104, 32, 50, 32, 51|...]) ? creep
+   Exit: (16) whtsps([32, 40, 109, 117, 104, 32, 50, 32|...], [40, 109, 117, 104, 32, 50, 32, 51|...]) ? creep
+   Call: (16) token(_4752, [40, 109, 117, 104, 32, 50, 32, 51|...], _5166) ? creep
+   Call: (17) list(_5156, [109, 117, 104, 32, 50, 32, 51, 32|...], _5216) ? creep
+   Exit: (17) list([], [109, 117, 104, 32, 50, 32, 51, 32|...], [109, 117, 104, 32, 50, 32, 51, 32|...]) ? creep
+   Call: (17) [109, 117, 104, 32, 50, 32, 51, 32|...]=[41|_5250] ? creep
+   Fail: (17) [109, 117, 104, 32, 50, 32, 51, 32|...]=[41|_5250] ? creep
+   Redo: (17) list(_5156, [109, 117, 104, 32, 50, 32, 51, 32|...], _5398) ? creep
+   Call: (18) _5444=[109, 117, 104, 32, 50, 32, 51, 32|...] ? creep
+   Exit: (18) [109, 117, 104, 32, 50, 32, 51, 32|...]=[109, 117, 104, 32, 50, 32, 51, 32|...] ? creep
+   Call: (18) whtsps([109, 117, 104, 32, 50, 32, 51, 32|...], _5534) ? creep
+   Exit: (18) whtsps([109, 117, 104, 32, 50, 32, 51, 32|...], [109, 117, 104, 32, 50, 32, 51, 32|...]) ? creep
+   Call: (18) token(_5386, [109, 117, 104, 32, 50, 32, 51, 32|...], _5624) ? creep
+   Call: (19) dcg_basics:number(_5386, [109, 117, 104, 32, 50, 32, 51|...], _5668) ? creep
+   Call: (20) var(_5386) ? creep
+   Exit: (20) var(_5386) ? creep
+   Call: (20) _5796=[109, 117, 104, 32, 50, 32, 51, 32|...] ? creep
+   Exit: (20) [109, 117, 104, 32, 50, 32, 51, 32|...]=[109, 117, 104, 32, 50, 32, 51, 32|...] ? creep
+   Call: (20) _5884=[109, 117, 104, 32, 50, 32, 51, 32|...] ? creep
+   Exit: (20) [109, 117, 104, 32, 50, 32, 51, 32|...]=[109, 117, 104, 32, 50, 32, 51, 32|...] ? creep
+   Call: (20) dcg_basics:int_codes(_5972, [109, 117, 104, 32, 50, 32, 51|...], _5976) ? creep
+   Call: (21) dcg_basics:sign(_5964, [109, 117, 104, 32, 50, 32, 51|...], _6032) ? creep
+   Fail: (21) dcg_basics:sign(_5964, [109, 117, 104, 32, 50, 32, 51|...], _6076) ? creep
+   Redo: (20) dcg_basics:int_codes(_6116, [109, 117, 104, 32, 50, 32, 51|...], _6120) ? creep
+   Call: (21) dcg_basics:digit(_6108, [109, 117, 104, 32, 50, 32, 51|...], _6170) ? creep
+   Call: (22) code_type(109, digit) ? creep
+   Fail: (22) code_type(109, digit) ? creep
+   Fail: (21) dcg_basics:digit(_6108, [109, 117, 104, 32, 50, 32, 51|...], _6302) ? creep
+   Fail: (20) dcg_basics:int_codes(_6342, [109, 117, 104, 32, 50, 32, 51|...], _6346) ? creep
+   Fail: (19) dcg_basics:number(_5386, [109, 117, 104, 32, 50, 32, 51|...], _6390) ? creep
+   Redo: (18) token(_5386, [109, 117, 104, 32, 50, 32, 51, 32|...], _6434) ? creep
+   Call: (19) symbol(_6474, [109, 117, 104, 32, 50, 32, 51, 32|...], _6478) ? creep
+   Call: (20) code_type(109, alpha) ? creep
+   Exit: (20) code_type(109, alpha) ? creep
+   Call: (20) char_code(_6466, 109) ? creep
+   Exit: (20) char_code(m, 109) ? creep
+   Call: (20) _6700=[117, 104, 32, 50, 32, 51, 32, 52|...] ? creep
+   Exit: (20) [117, 104, 32, 50, 32, 51, 32, 52|...]=[117, 104, 32, 50, 32, 51, 32, 52|...] ? creep
+   Call: (20) symbol(_6468, [117, 104, 32, 50, 32, 51, 32, 52|...], _6792) ? creep
+   Call: (21) code_type(117, alpha) ? creep
+   Exit: (21) code_type(117, alpha) ? creep
+   Call: (21) char_code(_6780, 117) ? creep
+   Exit: (21) char_code(u, 117) ? creep
+   Call: (21) _7014=[104, 32, 50, 32, 51, 32, 52, 41] ? creep
+   Exit: (21) [104, 32, 50, 32, 51, 32, 52, 41]=[104, 32, 50, 32, 51, 32, 52, 41] ? creep
+   Call: (21) symbol(_6782, [104, 32, 50, 32, 51, 32, 52, 41], _7106) ? creep
+   Call: (22) code_type(104, alpha) ? creep
+   Exit: (22) code_type(104, alpha) ? creep
+   Call: (22) char_code(_7094, 104) ? creep
+   Exit: (22) char_code(h, 104) ? creep
+   Call: (22) _7328=[32, 50, 32, 51, 32, 52, 41] ? creep
+   Exit: (22) [32, 50, 32, 51, 32, 52, 41]=[32, 50, 32, 51, 32, 52, 41] ? creep
+   Call: (22) symbol(_7096, [32, 50, 32, 51, 32, 52, 41], _7420) ? creep
+   Call: (23) code_type(32, alpha) ? creep
+   Fail: (23) code_type(32, alpha) ? creep
+   Redo: (22) symbol(_7096, [32, 50, 32, 51, 32, 52, 41], _7558) ? creep
+   Exit: (22) symbol([], [32, 50, 32, 51, 32, 52, 41], [32, 50, 32, 51, 32, 52, 41]) ? creep
+   Call: (22) _7642=[32, 50, 32, 51, 32, 52, 41] ? creep
+   Exit: (22) [32, 50, 32, 51, 32, 52, 41]=[32, 50, 32, 51, 32, 52, 41] ? creep
+   Exit: (21) symbol([h], [104, 32, 50, 32, 51, 32, 52, 41], [32, 50, 32, 51, 32, 52, 41]) ? creep
+   Call: (21) _7774=[32, 50, 32, 51, 32, 52, 41] ? creep
+   Exit: (21) [32, 50, 32, 51, 32, 52, 41]=[32, 50, 32, 51, 32, 52, 41] ? creep
+   Exit: (20) symbol([u, h], [117, 104, 32, 50, 32, 51, 32, 52|...], [32, 50, 32, 51, 32, 52, 41]) ? creep
+   Call: (20) _7906=[32, 50, 32, 51, 32, 52, 41] ? creep
+   Exit: (20) [32, 50, 32, 51, 32, 52, 41]=[32, 50, 32, 51, 32, 52, 41] ? creep
+   Exit: (19) symbol([m, u, h], [109, 117, 104, 32, 50, 32, 51, 32|...], [32, 50, 32, 51, 32, 52, 41]) ? creep
+   Call: (19) atom_chars(_5386, [m, u, h]) ? creep
+   Exit: (19) atom_chars(muh, [m, u, h]) ? creep
+   Call: (19) _8126=[32, 50, 32, 51, 32, 52, 41] ? creep
+   Exit: (19) [32, 50, 32, 51, 32, 52, 41]=[32, 50, 32, 51, 32, 52, 41] ? creep
+   Call: (19) _8214=[32, 50, 32, 51, 32, 52, 41] ? creep
+   Exit: (19) [32, 50, 32, 51, 32, 52, 41]=[32, 50, 32, 51, 32, 52, 41] ? creep
+   Exit: (18) token(muh, [109, 117, 104, 32, 50, 32, 51, 32|...], [32, 50, 32, 51, 32, 52, 41]) ? creep
+   Call: (18) whtsps([32, 50, 32, 51, 32, 52, 41], _8348) ? creep
+   Call: (19) _8390=[50, 32, 51, 32, 52, 41] ? creep
+   Exit: (19) [50, 32, 51, 32, 52, 41]=[50, 32, 51, 32, 52, 41] ? creep
+   Call: (19) whtsps([50, 32, 51, 32, 52, 41], _8480) ? creep
+   Exit: (19) whtsps([50, 32, 51, 32, 52, 41], [50, 32, 51, 32, 52, 41]) ? creep
+   Exit: (18) whtsps([32, 50, 32, 51, 32, 52, 41], [50, 32, 51, 32, 52, 41]) ? creep
+   Call: (18) _8610=[50, 32, 51, 32, 52, 41] ? creep
+   Exit: (18) [50, 32, 51, 32, 52, 41]=[50, 32, 51, 32, 52, 41] ? creep
+   Call: (18) list(_5388, [50, 32, 51, 32, 52, 41], _8702) ? creep
+   Exit: (18) list([], [50, 32, 51, 32, 52, 41], [50, 32, 51, 32, 52, 41]) ? creep
+   Exit: (17) list([muh], [109, 117, 104, 32, 50, 32, 51, 32|...], [50, 32, 51, 32, 52, 41]) ? creep
+   Call: (17) [50, 32, 51, 32, 52, 41]=[41|_8780] ? creep
+   Fail: (17) [50, 32, 51, 32, 52, 41]=[41|_8780] ? creep
+   Redo: (18) list(_5388, [50, 32, 51, 32, 52, 41], _8928) ? creep
+   Call: (19) _8974=[50, 32, 51, 32, 52, 41] ? creep
+   Exit: (19) [50, 32, 51, 32, 52, 41]=[50, 32, 51, 32, 52, 41] ? creep
+   Call: (19) whtsps([50, 32, 51, 32, 52, 41], _9064) ? creep
+   Exit: (19) whtsps([50, 32, 51, 32, 52, 41], [50, 32, 51, 32, 52, 41]) ? creep
+   Call: (19) token(_8916, [50, 32, 51, 32, 52, 41], _9154) ? creep
+   Call: (20) dcg_basics:number(_8916, [50, 32, 51, 32, 52, 41], _9198) ? creep
+   Call: (21) var(_8916) ? creep
+   Exit: (21) var(_8916) ? creep
+   Call: (21) _9326=[50, 32, 51, 32, 52, 41] ? creep
+   Exit: (21) [50, 32, 51, 32, 52, 41]=[50, 32, 51, 32, 52, 41] ? creep
+   Call: (21) _9414=[50, 32, 51, 32, 52, 41] ? creep
+   Exit: (21) [50, 32, 51, 32, 52, 41]=[50, 32, 51, 32, 52, 41] ? creep
+   Call: (21) dcg_basics:int_codes(_9502, [50, 32, 51, 32, 52, 41], _9506) ? creep
+   Call: (22) dcg_basics:sign(_9494, [50, 32, 51, 32, 52, 41], _9562) ? creep
+   Fail: (22) dcg_basics:sign(_9494, [50, 32, 51, 32, 52, 41], _9606) ? creep
+   Redo: (21) dcg_basics:int_codes(_9646, [50, 32, 51, 32, 52, 41], _9650) ? creep
+   Call: (22) dcg_basics:digit(_9638, [50, 32, 51, 32, 52, 41], _9700) ? creep
+   Call: (23) code_type(50, digit) ? creep
+   Exit: (23) code_type(50, digit) ? creep
+   Call: (23) _9828=[32, 51, 32, 52, 41] ? creep
+   Exit: (23) [32, 51, 32, 52, 41]=[32, 51, 32, 52, 41] ? creep
+   Exit: (22) dcg_basics:digit(50, [50, 32, 51, 32, 52, 41], [32, 51, 32, 52, 41]) ? creep
+   Call: (22) dcg_basics:digits(_9640, [32, 51, 32, 52, 41], _9964) ? creep
+   Call: (23) dcg_basics:digit(_9952, [32, 51, 32, 52, 41], _10014) ? creep
+   Call: (24) code_type(32, digit) ? creep
+   Fail: (24) code_type(32, digit) ? creep
+   Fail: (23) dcg_basics:digit(_9952, [32, 51, 32, 52, 41], _10146) ? creep
+   Redo: (22) dcg_basics:digits(_9640, [32, 51, 32, 52, 41], _10190) ? creep
+   Exit: (22) dcg_basics:digits([], [32, 51, 32, 52, 41], [32, 51, 32, 52, 41]) ? creep
+   Exit: (21) dcg_basics:int_codes([50], [50, 32, 51, 32, 52, 41], [32, 51, 32, 52, 41]) ? creep
+   Call: (21) dcg_basics:dot([32, 51, 32, 52, 41], _10320) ? creep
+   Fail: (21) dcg_basics:dot([32, 51, 32, 52, 41], _10364) ? creep
+   Redo: (20) dcg_basics:number(_8916, [50, 32, 51, 32, 52, 41], _10410) ? creep
+   Call: (21) _10450=[] ? creep
+   Exit: (21) []=[] ? creep
+   Call: (21) _10538=[32, 51, 32, 52, 41] ? creep
+   Exit: (21) [32, 51, 32, 52, 41]=[32, 51, 32, 52, 41] ? creep
+   Call: (21) dcg_basics:exp([32, 51, 32, 52, 41], _10628) ? creep
+   Fail: (21) dcg_basics:exp([32, 51, 32, 52, 41], _10672) ? creep
+   Redo: (20) dcg_basics:number(_8916, [50, 32, 51, 32, 52, 41], _10718) ? creep
+   Call: (21) _10758=[] ? creep
+   Exit: (21) []=[] ? creep
+   Call: (21) _10846=[32, 51, 32, 52, 41] ? creep
+   Exit: (21) [32, 51, 32, 52, 41]=[32, 51, 32, 52, 41] ? creep
+   Call: (21) lists:append([[50], [], []], _10954) ? creep
+   Exit: (21) lists:append([[50], [], []], [50]) ? creep
+   Call: (21) number_codes(_8916, [50]) ? creep
+   Exit: (21) number_codes(2, [50]) ? creep
+   Call: (21) _11134=[32, 51, 32, 52, 41] ? creep
+   Exit: (21) [32, 51, 32, 52, 41]=[32, 51, 32, 52, 41] ? creep
+   Exit: (20) dcg_basics:number(2, [50, 32, 51, 32, 52, 41], [32, 51, 32, 52, 41]) ? creep
+   Exit: (19) token(2, [50, 32, 51, 32, 52, 41], [32, 51, 32, 52, 41]) ? creep
+   Call: (19) whtsps([32, 51, 32, 52, 41], _11312) ? creep
+   Call: (20) _11354=[51, 32, 52, 41] ? creep
+   Exit: (20) [51, 32, 52, 41]=[51, 32, 52, 41] ? creep
+   Call: (20) whtsps([51, 32, 52, 41], _11444) ? creep
+   Exit: (20) whtsps([51, 32, 52, 41], [51, 32, 52, 41]) ? creep
+   Exit: (19) whtsps([32, 51, 32, 52, 41], [51, 32, 52, 41]) ? creep
+   Call: (19) _11574=[51, 32, 52, 41] ? creep
+   Exit: (19) [51, 32, 52, 41]=[51, 32, 52, 41] ? creep
+   Call: (19) list(_8918, [51, 32, 52, 41], _11666) ? creep
+   Exit: (19) list([], [51, 32, 52, 41], [51, 32, 52, 41]) ? creep
+   Exit: (18) list([2], [50, 32, 51, 32, 52, 41], [51, 32, 52, 41]) ? creep
+   Exit: (17) list([muh, 2], [109, 117, 104, 32, 50, 32, 51, 32|...], [51, 32, 52, 41]) ? creep
+   Call: (17) [51, 32, 52, 41]=[41|_11788] ? creep
+   Fail: (17) [51, 32, 52, 41]=[41|_11788] ? creep
+   Redo: (19) list(_8918, [51, 32, 52, 41], _11936) ? creep
+   Call: (20) _11982=[51, 32, 52, 41] ? creep
+   Exit: (20) [51, 32, 52, 41]=[51, 32, 52, 41] ? creep
+   Call: (20) whtsps([51, 32, 52, 41], _12072) ? creep
+   Exit: (20) whtsps([51, 32, 52, 41], [51, 32, 52, 41]) ? creep
+   Call: (20) token(_11924, [51, 32, 52, 41], _12162) ? creep
+   Call: (21) dcg_basics:number(_11924, [51, 32, 52, 41], _12206) ? creep
+   Call: (22) var(_11924) ? creep
+   Exit: (22) var(_11924) ? creep
+   Call: (22) _12334=[51, 32, 52, 41] ? creep
+   Exit: (22) [51, 32, 52, 41]=[51, 32, 52, 41] ? creep
+   Call: (22) _12422=[51, 32, 52, 41] ? creep
+   Exit: (22) [51, 32, 52, 41]=[51, 32, 52, 41] ? creep
+   Call: (22) dcg_basics:int_codes(_12510, [51, 32, 52, 41], _12514) ? creep
+   Call: (23) dcg_basics:sign(_12502, [51, 32, 52, 41], _12570) ? creep
+   Fail: (23) dcg_basics:sign(_12502, [51, 32, 52, 41], _12614) ? creep
+   Redo: (22) dcg_basics:int_codes(_12654, [51, 32, 52, 41], _12658) ? creep
+   Call: (23) dcg_basics:digit(_12646, [51, 32, 52, 41], _12708) ? creep
+   Call: (24) code_type(51, digit) ? creep
+   Exit: (24) code_type(51, digit) ? creep
+   Call: (24) _12836=[32, 52, 41] ? creep
+   Exit: (24) [32, 52, 41]=[32, 52, 41] ? creep
+   Exit: (23) dcg_basics:digit(51, [51, 32, 52, 41], [32, 52, 41]) ? creep
+   Call: (23) dcg_basics:digits(_12648, [32, 52, 41], _12972) ? creep
+   Call: (24) dcg_basics:digit(_12960, [32, 52, 41], _13022) ? creep
+   Call: (25) code_type(32, digit) ? creep
+   Fail: (25) code_type(32, digit) ? creep
+   Fail: (24) dcg_basics:digit(_12960, [32, 52, 41], _13154) ? creep
+   Redo: (23) dcg_basics:digits(_12648, [32, 52, 41], _13198) ? creep
+   Exit: (23) dcg_basics:digits([], [32, 52, 41], [32, 52, 41]) ? creep
+   Exit: (22) dcg_basics:int_codes([51], [51, 32, 52, 41], [32, 52, 41]) ? creep
+   Call: (22) dcg_basics:dot([32, 52, 41], _13328) ? creep
+   Fail: (22) dcg_basics:dot([32, 52, 41], _13372) ? creep
+   Redo: (21) dcg_basics:number(_11924, [51, 32, 52, 41], _13418) ? creep
+   Call: (22) _13458=[] ? creep
+   Exit: (22) []=[] ? creep
+   Call: (22) _13546=[32, 52, 41] ? creep
+   Exit: (22) [32, 52, 41]=[32, 52, 41] ? creep
+   Call: (22) dcg_basics:exp([32, 52, 41], _13636) ? creep
+   Fail: (22) dcg_basics:exp([32, 52, 41], _13680) ? creep
+   Redo: (21) dcg_basics:number(_11924, [51, 32, 52, 41], _13726) ? creep
+   Call: (22) _13766=[] ? creep
+   Exit: (22) []=[] ? creep
+   Call: (22) _13854=[32, 52, 41] ? creep
+   Exit: (22) [32, 52, 41]=[32, 52, 41] ? creep
+   Call: (22) lists:append([[51], [], []], _13962) ? creep
+   Exit: (22) lists:append([[51], [], []], [51]) ? creep
+   Call: (22) number_codes(_11924, [51]) ? creep
+   Exit: (22) number_codes(3, [51]) ? creep
+   Call: (22) _14142=[32, 52, 41] ? creep
+   Exit: (22) [32, 52, 41]=[32, 52, 41] ? creep
+   Exit: (21) dcg_basics:number(3, [51, 32, 52, 41], [32, 52, 41]) ? creep
+   Exit: (20) token(3, [51, 32, 52, 41], [32, 52, 41]) ? creep
+   Call: (20) whtsps([32, 52, 41], _14320) ? creep
+   Call: (21) _14362=[52, 41] ? creep
+   Exit: (21) [52, 41]=[52, 41] ? creep
+   Call: (21) whtsps([52, 41], _14452) ? creep
+   Exit: (21) whtsps([52, 41], [52, 41]) ? creep
+   Exit: (20) whtsps([32, 52, 41], [52, 41]) ? creep
+   Call: (20) _14582=[52, 41] ? creep
+   Exit: (20) [52, 41]=[52, 41] ? creep
+   Call: (20) list(_11926, [52, 41], _14674) ? creep
+   Exit: (20) list([], [52, 41], [52, 41]) ? creep
+   Exit: (19) list([3], [51, 32, 52, 41], [52, 41]) ? creep
+   Exit: (18) list([2, 3], [50, 32, 51, 32, 52, 41], [52, 41]) ? creep
+   Exit: (17) list([muh, 2, 3], [109, 117, 104, 32, 50, 32, 51, 32|...], [52, 41]) ? creep
+   Call: (17) [52, 41]=[41|_14840] ? creep
+   Fail: (17) [52, 41]=[41|_14840] ? creep
+   Redo: (20) list(_11926, [52, 41], _14988) ? creep
+   Call: (21) _15034=[52, 41] ? creep
+   Exit: (21) [52, 41]=[52, 41] ? creep
+   Call: (21) whtsps([52, 41], _15124) ? creep
+   Exit: (21) whtsps([52, 41], [52, 41]) ? creep
+   Call: (21) token(_14976, [52, 41], _15214) ? creep
+   Call: (22) dcg_basics:number(_14976, [52, 41], _15258) ? creep
+   Call: (23) var(_14976) ? creep
+   Exit: (23) var(_14976) ? creep
+   Call: (23) _15386=[52, 41] ? creep
+   Exit: (23) [52, 41]=[52, 41] ? creep
+   Call: (23) _15474=[52, 41] ? creep
+   Exit: (23) [52, 41]=[52, 41] ? creep
+   Call: (23) dcg_basics:int_codes(_15562, [52, 41], _15566) ? creep
+   Call: (24) dcg_basics:sign(_15554, [52, 41], _15622) ? creep
+   Fail: (24) dcg_basics:sign(_15554, [52, 41], _15666) ? creep
+   Redo: (23) dcg_basics:int_codes(_15706, [52, 41], _15710) ? creep
+   Call: (24) dcg_basics:digit(_15698, [52, 41], _15760) ? creep
+   Call: (25) code_type(52, digit) ? creep
+   Exit: (25) code_type(52, digit) ? creep
+   Call: (25) _15888=[41] ? creep
+   Exit: (25) [41]=[41] ? creep
+   Exit: (24) dcg_basics:digit(52, [52, 41], [41]) ? creep
+   Call: (24) dcg_basics:digits(_15700, [41], _16024) ? creep
+   Call: (25) dcg_basics:digit(_16012, [41], _16074) ? creep
+   Call: (26) code_type(41, digit) ? creep
+   Fail: (26) code_type(41, digit) ? creep
+   Fail: (25) dcg_basics:digit(_16012, [41], _16206) ? creep
+   Redo: (24) dcg_basics:digits(_15700, [41], _16250) ? creep
+   Exit: (24) dcg_basics:digits([], [41], [41]) ? creep
+   Exit: (23) dcg_basics:int_codes([52], [52, 41], [41]) ? creep
+   Call: (23) dcg_basics:dot([41], _16380) ? creep
+   Fail: (23) dcg_basics:dot([41], _16424) ? creep
+   Redo: (22) dcg_basics:number(_14976, [52, 41], _16470) ? creep
+   Call: (23) _16510=[] ? creep
+   Exit: (23) []=[] ? creep
+   Call: (23) _16598=[41] ? creep
+   Exit: (23) [41]=[41] ? creep
+   Call: (23) dcg_basics:exp([41], _16688) ? creep
+   Fail: (23) dcg_basics:exp([41], _16732) ? creep
+   Redo: (22) dcg_basics:number(_14976, [52, 41], _16778) ? creep
+   Call: (23) _16818=[] ? creep
+   Exit: (23) []=[] ? creep
+   Call: (23) _16906=[41] ? creep
+   Exit: (23) [41]=[41] ? creep
+   Call: (23) lists:append([[52], [], []], _17014) ? creep
+   Exit: (23) lists:append([[52], [], []], [52]) ? creep
+   Call: (23) number_codes(_14976, [52]) ? creep
+   Exit: (23) number_codes(4, [52]) ? creep
+   Call: (23) _17194=[41] ? creep
+   Exit: (23) [41]=[41] ? creep
+   Exit: (22) dcg_basics:number(4, [52, 41], [41]) ? creep
+   Exit: (21) token(4, [52, 41], [41]) ? creep
+   Call: (21) whtsps([41], _17372) ? creep
+   Exit: (21) whtsps([41], [41]) ? creep
+   Call: (21) _17458=[41] ? creep
+   Exit: (21) [41]=[41] ? creep
+   Call: (21) list(_14978, [41], _17550) ? creep
+   Exit: (21) list([], [41], [41]) ? creep
+   Exit: (20) list([4], [52, 41], [41]) ? creep
+   Exit: (19) list([3, 4], [51, 32, 52, 41], [41]) ? creep
+   Exit: (18) list([2, 3, 4], [50, 32, 51, 32, 52, 41], [41]) ? creep
+   Exit: (17) list([muh, 2, 3, 4], [109, 117, 104, 32, 50, 32, 51, 32|...], [41]) ? creep
+   Call: (17) [41]=[41|_17760] ? creep
+   Exit: (17) [41]=[41] ? creep
+   Call: (17) _17904=[] ? creep
+   Exit: (17) []=[] ? creep
+   Exit: (16) token(l=[muh, 2, 3, 4], [40, 109, 117, 104, 32, 50, 32, 51|...], []) ? creep
+   Call: (16) whtsps([], _18038) ? creep
+   Exit: (16) whtsps([], []) ? creep
+   Call: (16) _18124=[] ? creep
+   Exit: (16) []=[] ? creep
+   Call: (16) list(_4754, [], []) ? creep
+   Exit: (16) list([], [], []) ? creep
+   Exit: (15) list([l=[muh, 2, 3, 4]], [32, 40, 109, 117, 104, 32, 50, 32|...], []) ? creep
+^  Exit: (12) phrase(user:list([l=[muh, 2, 3, 4]]), [32, 40, 109, 117, 104, 32, 50, 32|...]) ? creep
+   Exit: (11) main([l=[muh, 2, 3, 4]]) ? creep
+X = [l=[muh, 2, 3, 4]].
